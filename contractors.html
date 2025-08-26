@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<title>پیمانکاران</title>
+<link rel="stylesheet" href="css/style.css">
+<script src="js/contractors.js" defer></script>
+</head>
+<body>
+<header>
+  <h1>مدیریت پیمانکاران</h1>
+  <a href="index.html">خانه</a>
+</header>
+<main>
+  <h2>لیست پیمانکاران</h2>
+  <form id="contractorForm">
+    <input type="text" id="name" placeholder="نام شرکت" required>
+    <input type="text" id="manager" placeholder="نام مدیر">
+    <button type="submit">افزودن</button>
+  </form>
+  <table id="contractorsTable">
+    <thead>
+      <tr>
+        <th>نام شرکت</th>
+        <th>مدیر</th>
+        <th>حذف</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+</main>
+</body>
+</html>
